@@ -1,0 +1,21 @@
+[project]
+name = "traveller-designer-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AhmedAyaz789", email = "ayazahmedlaghari758@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=1.97.1",
+    "openai-agents>=0.2.3",
+]
+
+[project.scripts]
+traveller-designer-agent = "traveller_designer_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"
