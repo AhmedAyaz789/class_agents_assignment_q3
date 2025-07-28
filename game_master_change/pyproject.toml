@@ -1,0 +1,19 @@
+[project]
+name = "game-master-change"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AhmedAyaz789", email = "ayazahmedlaghari758@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.2.3",
+]
+
+[project.scripts]
+game-master-change = "game_master_change:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"
